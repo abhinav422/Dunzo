@@ -63,6 +63,9 @@ class MainActivity : AppCompatActivity() {
                     adapter.list.clear()
                 }
 
+                if (it.photos.photo.isEmpty()) {
+                    Toast.makeText(MainActivity@this,"No Data found",Toast.LENGTH_LONG).show()
+                }
                 adapter.list.addAll((it as DataModel).photos.photo)
 
                 adapter.pageNo = (it as DataModel).photos.page
@@ -111,6 +114,7 @@ class MainActivity : AppCompatActivity() {
                 }
             })
 
+            mainActivityViewModel.setTitle("catalysts",true)
         }
         else {
             setContentView(R.layout.refresh_internet)
