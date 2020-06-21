@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="refresh_margin">15dp</dimen>
+    <dimen name="toolbar_elevation">4dp</dimen>
+    <dimen name="search_edit_text_padding">10dp</dimen>
+    <dimen name="edit_text_height">40dp</dimen>
+    <dimen name="edit_text_margin">5dp</dimen>
+    <dimen name="ok_button_width">20dp</dimen>
+    <dimen name="img_view_width">300dp</dimen>
+    <dimen name="img_view_height">250dp</dimen>
+    <dimen name="txt_view_margin_top">20dp</dimen>
+    <dimen name="recycler_item_padding_bottom">15dp</dimen>
+    <dimen name="image_view_width">200dp</dimen>
+    <dimen name="image_view_height">200dp</dimen>
+    <dimen name="title_margin_top">10dp</dimen>
+    <dimen name="title_margin_start">10dp</dimen>
+    <dimen name="title_margin_end">10dp</dimen>
+</resources>
